@@ -1,0 +1,18 @@
+
+authenticated.message.form.label.title = Título
+authenticated.message.form.label.moment = Momento
+authenticated.message.form.label.tags = Etiquetas
+authenticated.message.form.label.body = Cuerpo
+authenticated.message.form.label.user = Autor
+authenticated.message.form.button.return = Volver
+
+authenticated.message.list.label.title = Título
+authenticated.message.list.label.tags = Etiquetas
+authenticated.message.list.label.body = Cuerpo
+authenticated.message.list.button.return = Volver
+authenticated.Message.form.button.create = Crear
+authenticated.message.form.button.post = Enviar un nuevo mensaje
+authenticated.message.form.checkbox = Confirmar mensaje
+
+authenticated.requests.error.must-confirm = Es necesario confirmar la creación 
+authenticated.message.error.spam = El mensaje es Spam

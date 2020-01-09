@@ -1,0 +1,22 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.ganfornina-bulletin.form.label.company = Empresa:
+anonymous.ganfornina-bulletin.form.label.description = Descripción:
+anonymous.ganfornina-bulletin.form.label.salary = Salario:
+anonymous.ganfornina-bulletin.form.label.vacancies = Vacantes:
+anonymous.ganfornina-bulletin.formbutton.create = ¡Crear!
+anonymous.ganfornina-bulletin.form.button.return = Volver
+
+anonymous.ganfornina-bulletin.list.label.company = Empresa
+anonymous.ganfornina-bulletin.list.label.description = Descripción
+anonymous.ganfornina-bulletin.list.label.salary = Salario
+anonymous.ganfornina-bulletin.list.label.vacancies = Vacantes
+anonymous.ganfornina-bulletin.list.label.moment = Momento

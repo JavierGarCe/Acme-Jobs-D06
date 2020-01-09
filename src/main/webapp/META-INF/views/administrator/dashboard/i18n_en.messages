@@ -1,0 +1,17 @@
+administrator.dashboard.form.label.numberOfAnnouncements = Number of announcements:
+administrator.dashboard.form.label.numberOfCompanyRecords = Number of company records:
+administrator.dashboard.form.label.numberOfInvestorRecords = Number of investor records:
+administrator.dashboard.form.label.minActiveRequests = Mininum active requests:
+administrator.dashboard.form.label.maxActiveRequests = Maximun active requests:
+administrator.dashboard.form.label.avgActiveRequests = Average active requests:
+administrator.dashboard.form.label.stDevRActiveRequests = Standard deviation active request:
+administrator.dashboard.form.label.minActiveOffers = Minimum active offers:
+administrator.dashboard.form.label.maxActiveOffers = Maximum active offers:
+administrator.dashboard.form.label.avgActiveOffers = Average active offers:
+administrator.dashboard.form.label.stDevMaxActiveOffers = Standard deviation maximum reward active offers:
+administrator.dashboard.form.label.stDevMinActiveOffers = Standard deviation minimum reward active offers:
+administrator.dashboard.form.label.avgNumberOfJobsPerEmployer = Average number of jobs per employer:
+administrator.dashboard.form.label.avgNumberOfApplicationsPerEmployer = Average number of applications per employer:
+administrator.dashboard.form.label.avgNumberOfApplicationsPerWorker = Average number of applications per worker:
+
+administrator.dashboard.form.button.return = Return

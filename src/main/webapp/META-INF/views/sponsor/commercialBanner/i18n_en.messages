@@ -1,0 +1,18 @@
+sponsor.banner.commercial.label.picture = Picture
+sponsor.banner.commercial.label.slogan = Slogan 
+
+sponsor.banner.commercial.form.label.picture = Picture:
+sponsor.banner.commercial.form.label.slogan = Slogan:
+sponsor.banner.commercial.form.label.targetUrl = Picture URL:
+sponsor.banner.commercial.form.label.creditCard = Credit card number:
+
+sponsor.banner.commercial.form.button.return = Return
+
+sponsor.banner.commercial.form.button.update = Update
+sponsor.banner.commercial.form.button.delete = Delete
+sponsor.banner.commercial.form.button.create = Create
+
+error.CommercialBanner.input.spam = Input is considered spam 
+error.commercialBanner.notCreditRegistred.create = You must register a credit card to create commercial banners
+error.commercialBanner.notCreditRegistred.update = You must register a credit card to update commercial banners
+sponsor.banner.commercial.form.data = Update your data

@@ -1,0 +1,9 @@
+authenticated.auditor.form.label.responsabilityStatement = Responsibility Statement
+authenticated.auditor.form.label.firm = Firm
+authenticated.auditor.form.button.create = Request
+authenticated.auditor.form.label.status = Status
+authenticated.auditor.form.button.create.other = New request
+authenticated.auditor.form.button.return = Return
+authenticated.request.auditor.form.label.status.pending = Pending
+authenticated.request.auditor.form.label.status.rejected = Rejected
+auditor.error.already-request = You have already requested to be an auditor

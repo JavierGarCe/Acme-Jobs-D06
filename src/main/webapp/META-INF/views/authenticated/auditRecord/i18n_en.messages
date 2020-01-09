@@ -1,0 +1,10 @@
+authenticated.auditRecord.list.label.title = Title
+authenticated.auditRecord.list.label.moment = Moment
+authenticated.auditRecord.list.label.status = Status
+authenticated.auditRecord.form.label.title = Title
+authenticated.auditRecord.form.label.moment = Moment
+authenticated.auditRecord.form.label.status = Status
+authenticated.auditRecord.form.label.body = Body
+authenticated.auditRecord.form.button.return = Return
+authenticated.auditRecord.form.label.status.draft = Draft
+authenticated.auditRecord.form.label.status.published = Published

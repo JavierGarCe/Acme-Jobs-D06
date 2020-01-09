@@ -1,0 +1,32 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.Challenge.form.label.title = Title
+administrator.Challenge.form.label.deadline = Deadline
+administrator.Challenge.form.label.description = Description
+administrator.Challenge.form.panel.goldLevel = Gold Level
+administrator.Challenge.form.label.goldGoal =  Gold goal
+administrator.Challenge.form.label.goldReward = Gold reward
+administrator.Challenge.form.panel.silverLevel = Silver Level
+administrator.Challenge.form.label.silverGoal = Silver goal
+administrator.Challenge.form.label.silverReward = Silver reward
+administrator.Challenge.form.panel.bronzeLevel = Bronze Level
+administrator.Challenge.form.label.bronzeGoal = Bronze goal
+administrator.Challenge.form.label.bronzeReward = Bronze reward
+
+administrator.Challenge.form.button.create = Create
+administrator.Challenge.form.button.update = Update
+administrator.Challenge.form.button.delete = Delete 
+administrator.Challenge.form.button.return = Return
+
+administrator.Challenge.error.not-future-deadline= The deadline must be future
+
+administrator.challenge.list.label.title = Title
+administrator.challenge.list.label.description = Description

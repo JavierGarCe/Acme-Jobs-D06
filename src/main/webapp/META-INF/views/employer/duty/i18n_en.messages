@@ -1,0 +1,18 @@
+employer.descriptor.form.label.duty.title = Title:
+employer.descriptor.form.label.duty.description = Description:
+employer.descriptor.form.label.duty.percentage = Percentage:
+employer.duty.form.button.return = Return
+
+employer.duty.list.label.title = Title
+employer.duty.list.label.percentage = Percentage
+employer.job.list.button.return = Return
+employer.job.list.label.create.duty = Add duty
+
+employer.duty.form.button.create = Create
+employer.duty.form.button.update = Update
+employer.duty.form.button.delete = Delete
+
+employer.duty.error.max-percentage = The duties cannot add up to more than 100% of the weekly workload. The maximum percentage of this duty is: {0}
+employer.duty.error.not-positive-percentage = The percentage must be greater than 0 
+
+employer.duty.error.spam = Input is considered spam

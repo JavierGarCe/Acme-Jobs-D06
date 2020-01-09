@@ -1,0 +1,21 @@
+auditor.job.form.label.title = Title:
+auditor.job.form.label.salary = Salary:
+auditor.job.form.label.deadline = Deadline:
+auditor.job.form.label.reference = Reference:
+auditor.job.form.label.status = Status:
+auditor.job.form.label.moreInfo = More info:
+auditor.job.form.label.descriptor = Descriptor
+auditor.job.form.label.descriptor.description = Description
+auditor.job.form.label.descriptor.duties = Duties:
+auditor.job.form.label.status.draft = Draft
+auditor.job.form.label.status.published = Published
+auditor.job.form.button.return = Return
+auditor.auditRecord.form.button.update = Update
+auditor.auditRecord.form.button.create = Create
+
+auditor.job.list.label.title = Title
+auditor.job.list.label.salary = Salary
+auditor.job.list.label.deadline = Deadline
+master.menu.anonymous.listAuditRecords = Audit records
+master.menu.anonymous.createAuditRecord = Create Audit Record
+employer.job.form.label.descriptorMessage = Watch duties

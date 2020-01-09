@@ -1,0 +1,24 @@
+worker.job.form.label.title = Title:
+worker.job.form.label.salary = Salary:
+worker.job.form.label.deadline = Deadline:
+worker.job.form.label.reference = Reference:
+worker.job.form.label.status = Stauts:
+worker.job.form.label.moreInfo = More info:
+worker.job.form.label.descriptor = Descriptor
+worker.job.form.label.descriptor.description = Description:
+worker.job.form.label.descriptorMessage = Watch duties
+worker.job.form.label.employer.name = employer's name:
+worker.job.form.label.duty = Duty
+worker.job.form.label.duty.title = Title:
+worker.job.form.label.duty.description = Description:
+worker.job.form.label.duty.percentage = Percentage:
+worker.job.form.label.status.draft = Draft
+worker.job.form.label.status.published = Published
+worker.job.form.button.return = Return
+employer.job.form.button.createApplication = Apply for job
+
+worker.job.list.label.title = Title
+worker.job.list.label.salary = Salary
+worker.job.list.label.deadline = Deadline
+
+master.menu.worker.listAuditRecords = Audit records

@@ -1,0 +1,18 @@
+sponsor.banner.commercial.label.picture = Imagen
+sponsor.banner.commercial.label.slogan = Slogan 
+
+sponsor.banner.commercial.form.label.picture = Imagen:
+sponsor.banner.commercial.form.label.slogan = Slogan:
+sponsor.banner.commercial.form.label.targetUrl = URL imagen:
+sponsor.banner.commercial.form.label.creditCard = Número tarjeta de crédito:
+
+sponsor.banner.commercial.form.button.return = Volver
+
+sponsor.banner.commercial.form.button.update = Actualizar
+sponsor.banner.commercial.form.button.delete = Eliminar
+sponsor.banner.commercial.form.button.create = Crear
+
+error.nonCommercialBanner.input.spam = La entrada es considerada spam
+error.commercialBanner.notCreditRegistred.create = Debe registrar una tarjeta de crédito para crear banners comerciales
+error.commercialBanner.notCreditRegistred.update = Debe registrar una tarjeta de crédito para actualizar banners comerciales
+sponsor.banner.commercial.form.data = Actualizar tus datos

@@ -1,0 +1,15 @@
+authenticated.offer.list.label.title = Título
+authenticated.offer.list.label.deadline = Fecha límite
+authenticated.offer.list.label.description = Descripción
+authenticated.offer.list.label.reward = Recompensa
+
+authenticated.offer.form.labbel.title = Título:
+authenticated.offer.form.labbel.moment = Momento:
+authenticated.offer.form.labbel.deadline = Fecha límite:
+authenticated.offer.form.label.description = Descripción:
+authenticated.offer.form.panel.reward = Recompensa
+authenticated.offer.form.labbel.minReward = Recompensa mínima:
+authenticated.offer.form.labbel.maxReward = Recompensa máxima:
+authenticated.offer.form.labbel.ticker = Código:
+
+authenticated.offer.form.button.return = Volver

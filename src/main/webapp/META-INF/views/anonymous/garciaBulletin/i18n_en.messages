@@ -1,0 +1,12 @@
+anonymous.garciaBulletin.list.label.moment = Moment
+anonymous.garciaBulletin.list.label.name = Name
+anonymous.garciaBulletin.list.label.surname = Surname
+anonymous.garciaBulletin.list.label.subject = Subject 
+anonymous.garciaBulletin.list.label.text = Text
+
+anonymous.garciaBulletin.form.label.name = Name:
+anonymous.garciaBulletin.form.label.surname = Surname:
+anonymous.garciaBulletin.form.label.subject = Subject:
+anonymous.garciaBulletin.form.label.text = Text:
+anonymous.garciaBulletin.form.button.create = Create!
+anonymous.garciaBulletin.form.button.return = Return

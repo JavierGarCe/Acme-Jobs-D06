@@ -1,0 +1,16 @@
+authenticated.offer.list.label.title = Title
+authenticated.offer.list.label.deadline = Deadline
+authenticated.offer.list.label.description = Description
+authenticated.offer.list.label.reward = Reward
+
+
+authenticated.offer.form.labbel.title = Title:
+authenticated.offer.form.labbel.moment = Moment:
+authenticated.offer.form.labbel.deadline = Deadline:
+authenticated.offer.form.label.description = Description:
+authenticated.offer.form.panel.reward = Reward
+authenticated.offer.form.labbel.minReward = Minimun reward:
+authenticated.offer.form.labbel.maxReward = Maximum reward:
+authenticated.offer.form.labbel.ticker = Ticker:
+
+authenticated.offer.form.button.return = Return

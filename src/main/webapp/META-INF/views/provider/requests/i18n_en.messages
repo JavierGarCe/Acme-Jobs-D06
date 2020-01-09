@@ -1,0 +1,16 @@
+
+provider.requests.form.label.title = Title
+provider.requests.form.label.moreInfo = More Info
+provider.requests.form.label.reward = Reward
+provider.requests.form.label.ticker = Ticker
+provider.requests.form.label.deadline = Deadline
+provider.requests.form.label.confirm = Confirm the creation
+provider.requests.form.button.create = Create
+provider.requests.form.button.return = Return
+
+
+provider.ticker.error.duplicated = This ticker is already taken
+provider.reward.error.currency = The reward must be at EUR (euros)
+provider.reward.error.amount = The amount of money must be greater than 0 
+provider.requests.error.must-confirm = Must confirm the creation
+provider.deadline.error.future = The deadline must be after the current date

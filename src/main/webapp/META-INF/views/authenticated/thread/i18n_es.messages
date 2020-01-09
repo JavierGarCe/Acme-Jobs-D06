@@ -1,0 +1,17 @@
+
+authenticated.threads.form.label.title = Título
+authenticated.threads.form.label.moment = Momento
+authenticated.threads.form.panel.messages = Mensajes
+authenticated.message.form.label.title = Título
+authenticated.message.form.label.moment = Momento
+authenticated.message.form.label.tags = Etiquetas
+authenticated.message.form.label.body = Cuerpo
+authenticated.threads.form.label.message = Ver mensajes
+authenticated.threads.form.button.return = Volver
+authenticated.threads.button.create = Crear
+
+
+authenticated.threads.list.label.title = Título
+authenticated.threads.list.label.moment = Momento
+
+authenticated.threads.form.label.users = Usuarios

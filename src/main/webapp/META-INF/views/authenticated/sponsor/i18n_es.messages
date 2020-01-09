@@ -1,0 +1,10 @@
+authenticated.sponsor.form.label.organisationName = Nombre de la organización
+authenticated.sponsor.form.label.creditCard = Tarjeta de crédito
+authenticated.sponsor.form.button.create = Registrarse
+authenticated.sponsor.form.button.update = Actualizar
+authenticated.sponsor.form.button.return = Volver
+authenticated.sponsor.form.title.create = Hazte patrocinador
+authenticated.sponsor.form.title.update = Actualiza tus datos de patrocinador
+
+authenticated.message.error.creditCard = Número de tarjeta incorrecto
+authenticated.message.error.creditCardNumero = No se ha introducido un número en la tarjeta de crédito. No dejes espacios entre los números

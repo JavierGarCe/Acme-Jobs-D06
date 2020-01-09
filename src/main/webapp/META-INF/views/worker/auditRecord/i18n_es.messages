@@ -1,0 +1,10 @@
+worker.auditRecord.list.label.title = Título
+worker.auditRecord.list.label.moment = Momento
+worker.auditRecord.list.label.status =  Estado
+worker.auditRecord.form.label.title = Título
+worker.auditRecord.form.label.moment = Momento
+worker.auditRecord.form.label.status = Estado
+worker.auditRecord.form.label.body = Cuerpo
+worker.auditRecord.form.button.return = Volver
+worker.auditRecord.form.label.status.published = Publicado
+worker.auditRecord.form.label.status.draft = Borrador

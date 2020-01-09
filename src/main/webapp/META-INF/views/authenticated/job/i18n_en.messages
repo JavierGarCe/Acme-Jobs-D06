@@ -1,0 +1,22 @@
+authenticated.job.form.label.title = Title:
+authenticated.job.form.label.salary = Salary:
+authenticated.job.form.label.deadline = Deadline:
+authenticated.job.form.label.reference = Reference:
+authenticated.job.form.label.status = Stauts:
+authenticated.job.form.label.moreInfo = More info:
+authenticated.job.form.label.descriptor = Descriptor
+authenticated.job.form.label.employer.name = Employer's name
+authenticated.job.form.label.descriptor.description = Description:
+authenticated.job.form.label.duty = Duty
+authenticated.job.form.label.duty.title = Title:
+authenticated.job.form.label.duty.description = Description:
+authenticated.job.form.label.duty.percentage = Percentage: 
+authenticated.job.form.label.status.published = Published
+authenticated.job.form.label.status.draft = Draft
+authenticated.job.form.button.return = Return
+
+authenticated.job.list.label.title = Title
+authenticated.job.list.label.salary = Salary
+authenticated.job.list.label.deadline = Deadline
+master.menu.authenticated.listAuditRecords =  Audit records
+authenticated.job.form.label.descriptorMessage = Watch duties

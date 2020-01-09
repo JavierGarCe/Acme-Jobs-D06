@@ -1,0 +1,12 @@
+anonymous.garciaBulletin.list.label.moment = Momento
+anonymous.garciaBulletin.list.label.name = Nombre
+anonymous.garciaBulletin.list.label.surname = Apellidos
+anonymous.garciaBulletin.list.label.subject = Asunto
+anonymous.garciaBulletin.list.label.text = Texto
+
+anonymous.garciaBulletin.form.label.name = Nombre:
+anonymous.garciaBulletin.form.label.surname = Apellidos:
+anonymous.garciaBulletin.form.label.subject = Asunto:
+anonymous.garciaBulletin.form.label.text = Texto:
+anonymous.garciaBulletin.form.button.create = ¡Crear!
+anonymous.garciaBulletin.form.button.return = Volver

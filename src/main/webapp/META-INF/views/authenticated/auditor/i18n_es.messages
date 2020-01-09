@@ -1,0 +1,7 @@
+authenticated.auditor.form.label.responsabilityStatement = Declaración de responsabilidad
+authenticated.auditor.form.label.firm = Firma
+authenticated.auditor.form.button.create = Registrarse
+authenticated.auditor.form.button.update = Actualizar
+authenticated.auditor.form.button.return = Volver
+
+auditor.error.already-request = Ya ha solicitado ser auditor

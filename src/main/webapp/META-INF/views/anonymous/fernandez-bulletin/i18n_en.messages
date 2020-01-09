@@ -1,0 +1,10 @@
+anonymous.fernandezbulletin.list.label.moment = Moment
+anonymous.fernandezbulletin.list.label.author = Author
+anonymous.fernandezbulletin.list.label.text = Text
+anonymous.fernandezbulletin.list.label.country = Country
+
+anonymous.fernandezbulletin.form.label.author = Author:
+anonymous.fernandezbulletin.form.label.text = Text:
+anonymous.fernandezbulletin.form.label.country = Country:
+anonymous.fernandezbulletin.form.button.create = Create!
+anonymous.fernandezbulletin.form.button.return = Return

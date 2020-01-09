@@ -1,0 +1,16 @@
+
+provider.requests.form.label.title = Título
+provider.requests.form.label.moreInfo = Más Información
+provider.requests.form.label.reward = Recompensa
+provider.requests.form.label.ticker = Código
+provider.requests.form.label.deadline = Fecha Límite
+provider.requests.form.label.confirm = Confirmar la creación
+provider.requests.form.button.create = Crear
+provider.requests.form.button.return = Volver
+
+
+provider.ticker.error.duplicated = Este código ya está en uso
+provider.reward.error.currency = La recompensa debe estar en EUR (euros)
+provider.reward.error.amount = La cantidad de dinero debe ser mayor que 0
+provider.requests.error.must-confirm = Debe confirmar la creación
+provider.deadline.error.future = La fecha límite debe ser posterior a la fecha actual

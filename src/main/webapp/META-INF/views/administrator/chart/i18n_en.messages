@@ -1,0 +1,7 @@
+companiesbysector = Companies by sector
+investorsbysector = Investors by sector
+jobsByStatus = Ratio of jobs grouped by status 
+applicationsByStatus = Ratio of applications grouped by status
+pendingApplicationsPerDay = Pending applications per day
+acceptedApplicationsPerDay = Accepted applications per day
+rejectedApplicationsPerDay = Rejected applications per day

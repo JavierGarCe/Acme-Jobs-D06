@@ -1,0 +1,18 @@
+administrator.dashboard.form.label.numberOfAnnouncements = Número de anuncios:
+administrator.dashboard.form.label.numberOfCompanyRecords = Número de compañías:
+administrator.dashboard.form.label.numberOfInvestorRecords = Número de inversores:
+administrator.dashboard.form.label.minActiveRequests = Mínima petición activa:
+administrator.dashboard.form.label.maxActiveRequests = Máxima petición activa:
+administrator.dashboard.form.label.avgActiveRequests = Media peticiones activas:
+administrator.dashboard.form.label.stDevRActiveRequests = Desviación estándar peticiones activas:
+administrator.dashboard.form.label.minActiveOffers = Mínima oferta activa:
+administrator.dashboard.form.label.maxActiveOffers = Máxima oferta activa:
+administrator.dashboard.form.label.avgActiveOffers = Media ofertas activas:
+administrator.dashboard.form.label.stDevMaxActiveOffers = Desviación estándar máxima recompesnsa ofertas activas:
+administrator.dashboard.form.label.stDevMinActiveOffers = Desviación estándar mínima recompesnsa ofertas activas:
+administrator.dashboard.form.label.avgNumberOfJobsPerEmployer = Media de trabajos por empleador:
+administrator.dashboard.form.label.avgNumberOfApplicationsPerEmployer = Media de aplicaciones por empleador:
+administrator.dashboard.form.label.avgNumberOfApplicationsPerWorker = Media de aplicaciones por trabajador:
+
+
+administrator.dashboard.form.button.return = Volver

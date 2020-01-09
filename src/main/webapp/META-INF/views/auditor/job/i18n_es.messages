@@ -1,0 +1,22 @@
+auditor.job.form.label.title = Título:
+auditor.job.form.label.salary = Salario:
+auditor.job.form.label.deadline = Fecha límite:
+auditor.job.form.label.reference = Referencia:
+auditor.job.form.label.status = Estado:
+auditor.job.form.label.moreInfo = Más información:
+auditor.job.form.label.descriptor = Descriptor
+auditor.job.form.label.descriptor.description = Descripción
+auditor.job.form.label.descriptor.duties = Deberes:
+auditor.job.form.label.status.draft = Borrador
+auditor.job.form.label.status.published = Publicado
+auditor.job.form.button.return = Volver
+auditor.auditRecord.form.button.update = Actualizar
+auditor.auditRecord.form.button.create = Crear
+
+
+auditor.job.list.label.title = Título
+auditor.job.list.label.salary = Salario
+auditor.job.list.label.deadline = Fecha límite
+master.menu.anonymous.listAuditRecords = Registro de auditorias
+master.menu.anonymous.createAuditRecord = Crear registro de auditoría
+employer.job.form.label.descriptorMessage = ver tareas

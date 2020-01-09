@@ -1,0 +1,21 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.romero-bulletin.form.label.name = Nombre:
+anonymous.romero-bulletin.form.label.surname = Apellidos:
+anonymous.romero-bulletin.form.label.telephone = Telefono:
+anonymous.romero-bulletin.form.label.email = Email:
+anonymous.romero-bulletin.form.button.create = ¡Crear!
+anonymous.romero-bulletin.form.button.return = Volver
+
+anonymous.romero-bulletin.list.label.name = Nombre
+anonymous.romero-bulletin.list.label.surname = Apellidos
+anonymous.romero-bulletin.list.label.telephone = Telefono
+anonymous.romero-bulletin.list.label.email = Email

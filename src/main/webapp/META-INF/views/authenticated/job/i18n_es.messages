@@ -1,0 +1,22 @@
+authenticated.job.form.label.title = Título:
+authenticated.job.form.label.salary = Salario:
+authenticated.job.form.label.deadline = Fecha límite:
+authenticated.job.form.label.reference = Referencia:
+authenticated.job.form.label.status = Estado:
+authenticated.job.form.label.moreInfo = Más información:
+authenticated.job.form.label.descriptor = Descriptor
+authenticated.job.form.label.employer.name = Nombre del empleador
+authenticated.job.form.label.descriptor.description = Descripción
+authenticated.job.form.label.duty = Tarea
+authenticated.job.form.label.duty.title = Título:
+authenticated.job.form.label.duty.description = Descripción:
+authenticated.job.form.label.duty.percentage = Porcentaje: 
+authenticated.job.form.label.status.published = Publicado
+authenticated.job.form.label.status.draft = Borrador
+authenticated.job.form.button.return = Volver
+
+authenticated.job.list.label.title = Título
+authenticated.job.list.label.salary = Salario
+authenticated.job.list.label.deadline = Fecha límite
+master.menu.authenticated.listAuditRecords = Registro de auditorías
+authenticated.job.form.label.descriptorMessage = Ver tareas

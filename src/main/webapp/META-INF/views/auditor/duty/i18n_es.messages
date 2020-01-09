@@ -1,0 +1,8 @@
+auditor.descriptor.form.label.duty.title = Título:
+auditor.descriptor.form.label.duty.description = Descripción:
+auditor.descriptor.form.label.duty.percentage = Porcentaje:
+auditor.duty.form.button.return = Volver
+
+auditor.duty.list.label.title = Título
+auditor.duty.list.label.description = Descripción
+auditor.job.list.button.return = Volver

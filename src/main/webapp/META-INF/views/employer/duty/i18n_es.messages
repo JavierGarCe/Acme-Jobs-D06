@@ -1,0 +1,18 @@
+employer.descriptor.form.label.duty.title = Título:
+employer.descriptor.form.label.duty.description = Descripción:
+employer.descriptor.form.label.duty.percentage = Porcentaje:
+employer.duty.form.button.return = Volver
+
+employer.duty.list.label.title = Título
+employer.duty.list.label.percentage = Porcentaje
+employer.job.list.button.return = Volver
+employer.job.list.label.create.duty = Añadir tarea
+
+employer.duty.form.button.create = Crear
+employer.duty.form.button.update = Actualizar
+employer.duty.form.button.delete = Borrar
+
+employer.duty.error.max-percentage = Las tareas no pueden sumar más del 100% de la carga de trabajo semanal. El máximo porcentaje de esta tarea es: {0}
+employer.duty.error.not-positive-percentage = El porcentaje debe ser mayor de 0 
+
+employer.duty.error.spam = La entrada es considerada spam

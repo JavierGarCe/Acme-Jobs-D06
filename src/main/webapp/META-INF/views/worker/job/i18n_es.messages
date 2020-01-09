@@ -1,0 +1,24 @@
+worker.job.form.label.title = Título:
+worker.job.form.label.salary = Salario:
+worker.job.form.label.deadline = Fecha límite:
+worker.job.form.label.reference = Referencia:
+worker.job.form.label.status = Estado:
+worker.job.form.label.moreInfo = Más información:
+worker.job.form.label.descriptor = Descriptor
+worker.job.form.label.descriptor.description = Descripción:
+worker.job.form.label.employer.name = Nombre del empleador:
+worker.job.form.label.descriptorMessage = Ver tareas
+worker.job.form.label.duty = Tarea
+worker.job.form.label.duty.title = Título:
+worker.job.form.label.duty.description = Descripción:
+worker.job.form.label.duty.percentage = Porcentaje:
+worker.job.form.label.status.draft = Borrador
+worker.job.form.label.status.published = Publicado
+worker.job.form.button.return = Volver
+employer.job.form.button.createApplication = Aplicar trabajo
+
+worker.job.list.label.title = Título
+worker.job.list.label.salary = Salario
+worker.job.list.label.deadline = Fecha límite
+
+master.menu.worker.listAuditRecords = Registro de auditorías
