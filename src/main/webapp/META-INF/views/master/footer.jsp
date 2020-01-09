@@ -10,6 +10,7 @@
 - they accept any liabilities with respect to them.
 --%>
 
+<%@page import="acme.entities.banners.Banner"%>
 <%@page language="java"%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -34,6 +35,8 @@
 	
 	<acme:footer-logo logo="images/logo.png">
 		<acme:footer-copyright code="master.company.name"/>
-	</acme:footer-logo>		
+	</acme:footer-logo>	
 	
 </acme:footer-panel>
+
+<img src="${banner.targetUrl }" style="display: block; margin-left: auto; margin-right: auto; border-style: solid; margin-top: 10px"></img>	
