@@ -72,11 +72,73 @@
 	<bean name="administratorAuthenticated" class="acme.framework.entities.Authenticated">
 		<property name="userAccount" ref="administratorUserAccount" />
 	</bean>
+	<bean name="sponsorDefaultUserAccount" class="acme.framework.entities.UserAccount">
+		<property name="username" value="sponsorDefault" />
+		<property name="password" value="sponsorDefault" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Sponsor" />
+				<property name="surname" value="Default" />
+				<property name="email" value="sponsordefault@acme.com" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="sponsorDefaultSponsor" />
+				<ref bean="sponsorDefaultAuthenticated" />
+			</list>
+		</property>
+	</bean>
+	<bean name="sponsorDefaultSponsor" class="acme.entities.roles.Sponsor">
+		<property name="organisationName" value="FaKeOrganisation"/>
+		<property name="creditCard" value="3559912432365018"/>
+		<property name="userAccount" ref="sponsorDefaultUserAccount" />
+	</bean>	
+	<bean name="sponsorDefaultAuthenticated" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="sponsorDefaultUserAccount" />
+	</bean>
 	
 	  <!-- Customization parameters -->
 	<bean id="customization" class="acme.entities.customization.Customization">
 		<property name="threshold" value="1.00"/>
 		<property name="spamword" value="sex, hard core, viagra, cialis, nigeria, you've won, million dollar, sexo, duro, has ganado, millón de dolares"/>
+	</bean>
+	
+	<bean id="default01" class="acme.entities.banners.NonCommercialBanner">
+		<property name="picture" value="https://i.imgur.com/8YcXhS0.png"/>
+		<property name="slogan" value="Acme slogan"/>
+		<property name="targetUrl" value="https://i.imgur.com/8YcXhS0.png"/>
+		<property name="jingle" value="Acme jingle"/>
+		<property name="sponsor" ref="sponsorDefaultSponsor"/>
+	</bean>
+	<bean id="default02" class="acme.entities.banners.NonCommercialBanner">
+		<property name="picture" value="https://i.imgur.com/NGLSjk6.png"/>
+		<property name="slogan" value="Acme slogan"/>
+		<property name="targetUrl" value="https://i.imgur.com/NGLSjk6.png"/>
+		<property name="jingle" value="Acme jingle"/>
+		<property name="sponsor" ref="sponsorDefaultSponsor"/>
+	</bean>
+	<bean id="default03" class="acme.entities.banners.NonCommercialBanner">
+		<property name="picture" value="https://i.imgur.com/2eVF1HG.png"/>
+		<property name="slogan" value="Acme slogan"/>
+		<property name="targetUrl" value="https://i.imgur.com/2eVF1HG.png"/>
+		<property name="jingle" value="Acme jingle"/>
+		<property name="sponsor" ref="sponsorDefaultSponsor"/>
+	</bean>
+	<bean id="default04" class="acme.entities.banners.NonCommercialBanner">
+		<property name="picture" value="https://i.imgur.com/fihihcF.png"/>
+		<property name="slogan" value="Acme slogan"/>
+		<property name="targetUrl" value="https://i.imgur.com/fihihcF.png"/>
+		<property name="jingle" value="Acme jingle"/>
+		<property name="sponsor" ref="sponsorDefaultSponsor"/>
+	</bean>
+	<bean id="default05" class="acme.entities.banners.NonCommercialBanner">
+		<property name="picture" value="https://i.imgur.com/MtBRoNP.png"/>
+		<property name="slogan" value="Acme slogan"/>
+		<property name="targetUrl" value="https://i.imgur.com/MtBRoNP.png"/>
+		<property name="jingle" value="Acme jingle"/>
+		<property name="sponsor" ref="sponsorDefaultSponsor"/>
 	</bean>
 	
 </beans>
