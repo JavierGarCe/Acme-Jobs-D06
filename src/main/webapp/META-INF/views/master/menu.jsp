@@ -77,12 +77,6 @@
       		<acme:menu-suboption code="master.menu.administrator.createAnnouncements" action="/administrator/announcement/create"/>
 			<acme:menu-suboption code="master.menu.administrator.listAnnouncements" action="/administrator/announcement/list"/>
 		<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.administrator.listCommercialBanners" action="/administrator/commercial-banner/list"/>
-			<acme:menu-suboption code="master.menu.administrator.createCommercialBanners" action="/administrator/commercial-banner/create"/>
-		<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.administrator.listNonCommercialBanners" action="/administrator/non-commercial-banner/list"/>
-			<acme:menu-suboption code="master.menu.administrator.createNonCommercialBanner" action="/administrator/non-commercial-banner/create"/>
-	  <acme:menu-separator/>
 	  		<acme:menu-suboption code="master.menu.administrator.customization" action="/administrator/customization/list"/>	
     <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/dashboard/show"/>

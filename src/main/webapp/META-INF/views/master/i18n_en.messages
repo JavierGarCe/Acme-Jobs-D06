@@ -91,12 +91,6 @@ master.menu.administrator.dashboard = List indicators
 
 master.menu.administrator.customization = Customization
 
-master.menu.administrator.listCommercialBanners = List commercial banners
-master.menu.administrator.createCommercialBanners = Create commercial banner
-
-master.menu.administrator.listNonCommercialBanners = List non commercial banners
-
-master.menu.administrator.createNonCommercialBanner = Create non commercial banners
 
 master.menu.administrator.listAllInvestorRecords = List all investor records
 
