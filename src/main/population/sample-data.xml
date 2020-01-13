@@ -374,6 +374,7 @@
 				<property name="name" value="Sponsor" />
 				<property name="surname" value="One" />
 				<property name="email" value="sponsorone@acme.com" />
+				<property name="phone" value="+012 (0345) 678-900"/>
 			</bean>
 		</property>
 		<property name="roles">
@@ -428,6 +429,7 @@
 				<property name="name" value="Employer" />
 				<property name="surname" value="One" />
 				<property name="email" value="employer.one@acme.com" />
+				<property name="phone" value="+44 (0) 123-456"/>
 			</bean>
 		</property>
 		<property name="roles">
@@ -486,6 +488,7 @@
 				<property name="name" value="Worker" />
 				<property name="surname" value="One" />
 				<property name="email" value="worker1@acme.com" />
+				<property name="phone" value="+34 123 456 789"/>
 			</bean>
 		</property>
 		<property name="roles">
@@ -542,6 +545,7 @@
 				<property name="name" value="Auditor" />
 				<property name="surname" value="One" />
 				<property name="email" value="auditor.one@acme.com" />
+				<property name="phone" value="+1 123456"/>
 			</bean>
 		</property>
 		<property name="roles">
