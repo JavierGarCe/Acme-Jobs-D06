@@ -100,10 +100,6 @@ master.menu.administrator.request.auditor = Lista de solicitudes de auditor
 
 master.menu.administrator.chart = Gráficos
 
-# master.menu.provider ########################################################
-
-master.menu.provider = Proveedor
-master.menu.provider.requests.create = Crear una petición
 
 # master.menu.consumer ##########################################################
 
@@ -140,8 +136,6 @@ master.menu.sponsor.listOthers = Trabajos que no he auditado
 
 master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
-master.menu.user-account.provider = Datos de proveedor
-master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
 master.menu.user-account.listCompanyRecords = Lista de registros de compañías
