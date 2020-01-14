@@ -107,15 +107,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `consumer` (
-       `id` integer not null,
-        `version` integer not null,
-        `user_account_id` integer,
-        `company` varchar(255),
-        `sector` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `customization` (
        `id` integer not null,
         `version` integer not null,
@@ -246,15 +237,6 @@
         `moment` datetime(6),
         `ticker` varchar(255),
         `title` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `provider` (
-       `id` integer not null,
-        `version` integer not null,
-        `user_account_id` integer,
-        `company` varchar(255),
-        `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -455,11 +437,6 @@ create index IDX2ijmvvrwi2t1isu2m2ncm5qn1 on `requests` (`ticker`);
        foreign key (`sponsor_id`) 
        references `sponsor` (`id`);
 
-    alter table `consumer` 
-       add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 
-       foreign key (`user_account_id`) 
-       references `user_account` (`id`);
-
     alter table `descriptor_duty` 
        add constraint `FK57eqqlhihwvd53ykpmsiqlx2p` 
        foreign key (`duties_id`) 
@@ -494,11 +471,6 @@ create index IDX2ijmvvrwi2t1isu2m2ncm5qn1 on `requests` (`ticker`);
        add constraint FK_2l8gpcwh19e7jj513or4r9dvb 
        foreign key (`sponsor_id`) 
        references `sponsor` (`id`);
-
-    alter table `provider` 
-       add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
-       foreign key (`user_account_id`) 
-       references `user_account` (`id`);
 
     alter table `request_auditor` 
        add constraint `FK9giuqpn53mab8yca7a3noeckl` 
