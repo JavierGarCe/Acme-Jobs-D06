@@ -118,9 +118,8 @@ CREATE TABLE `application` (
   `worker_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `UK_ct7r18vvxl5g4c4k7aefpa4do` (`reference`),
-  KEY `IDX2q2747fhp099wkn3j2yt05fhs` (`status`),
   KEY `IDXdwumdwpjcwdk1mef9ua69yc2p` (`reference`),
-  KEY `IDXg54pxa1gngqheaipukeg8jypk` (`moment`),
+  KEY `IDX5wwxv107kvi5si12nh4226lnx` (`status`,`moment`),
   KEY `FKoa6p4s2oyy7tf80xwc4r04vh6` (`job_id`),
   KEY `FKmbjdoxi3o93agxosoate4sxbt` (`worker_id`),
   CONSTRAINT `FKmbjdoxi3o93agxosoate4sxbt` FOREIGN KEY (`worker_id`) REFERENCES `worker` (`id`),
@@ -222,7 +221,7 @@ CREATE TABLE `authenticated` (
 
 LOCK TABLES `authenticated` WRITE;
 /*!40000 ALTER TABLE `authenticated` DISABLE KEYS */;
-INSERT INTO `authenticated` VALUES (5,0,3);
+INSERT INTO `authenticated` VALUES (5,0,3),(8,0,6);
 /*!40000 ALTER TABLE `authenticated` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -323,34 +322,6 @@ LOCK TABLES `company_record` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `consumer`
---
-
-DROP TABLE IF EXISTS `consumer`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `consumer` (
-  `id` int(11) NOT NULL,
-  `version` int(11) NOT NULL,
-  `user_account_id` int(11) DEFAULT NULL,
-  `company` varchar(255) DEFAULT NULL,
-  `sector` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `FK_6cyha9f1wpj0dpbxrrjddrqed` (`user_account_id`),
-  CONSTRAINT `FK_6cyha9f1wpj0dpbxrrjddrqed` FOREIGN KEY (`user_account_id`) REFERENCES `user_account` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `consumer`
---
-
-LOCK TABLES `consumer` WRITE;
-/*!40000 ALTER TABLE `consumer` DISABLE KEYS */;
-/*!40000 ALTER TABLE `consumer` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `customization`
 --
 
@@ -372,32 +343,8 @@ CREATE TABLE `customization` (
 
 LOCK TABLES `customization` WRITE;
 /*!40000 ALTER TABLE `customization` DISABLE KEYS */;
+INSERT INTO `customization` VALUES (9,0,'sex, hard core, viagra, cialis, nigeria, you\'ve won, million dollar, sexo, duro, has ganado, millón de dolares',1);
 /*!40000 ALTER TABLE `customization` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `customization_spamword`
---
-
-DROP TABLE IF EXISTS `customization_spamword`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `customization_spamword` (
-  `customization_id` int(11) NOT NULL,
-  `spamword` varchar(255) DEFAULT NULL,
-  KEY `FKhglffdajso40casyncc1yd1wi` (`customization_id`),
-  CONSTRAINT `FKhglffdajso40casyncc1yd1wi` FOREIGN KEY (`customization_id`) REFERENCES `customization` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `customization_spamword`
---
-
-LOCK TABLES `customization_spamword` WRITE;
-/*!40000 ALTER TABLE `customization_spamword` DISABLE KEYS */;
-INSERT INTO `customization_spamword` VALUES (45,'sex'),(45,' hard core'),(45,' viagra'),(45,' cialis'),(45,' nigeria'),(45,' you´ve won'),(45,' million dollar'),(45,' sexo'),(45,' duro'),(45,' has ganado'),(45,' millón de dollares');
-/*!40000 ALTER TABLE `customization_spamword` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -605,7 +552,7 @@ CREATE TABLE `hibernate_sequence` (
 
 LOCK TABLES `hibernate_sequence` WRITE;
 /*!40000 ALTER TABLE `hibernate_sequence` DISABLE KEYS */;
-INSERT INTO `hibernate_sequence` VALUES (6);
+INSERT INTO `hibernate_sequence` VALUES (15);
 /*!40000 ALTER TABLE `hibernate_sequence` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -660,9 +607,8 @@ CREATE TABLE `job` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `UK_qpodqtu8nvqkof3olnqnqcv2l` (`descriptor_id`),
   UNIQUE KEY `UK_7jmfdvs0b0jx7i33qxgv22h7b` (`reference`),
-  KEY `IDXfdmpnr8o4phmk81sqsano16r` (`deadline`),
-  KEY `IDX28ur9xm72oo1df9g14xhnh8h3` (`status`),
   KEY `IDX8ix743uifflnrs9bupbn6y0h4` (`reference`),
+  KEY `IDXal59yunywnkwi09ps7jxpr18c` (`deadline`,`status`),
   KEY `FK3rxjf8uh6fh2u990pe8i2at0e` (`employer_id`),
   CONSTRAINT `FK3rxjf8uh6fh2u990pe8i2at0e` FOREIGN KEY (`employer_id`) REFERENCES `employer` (`id`),
   CONSTRAINT `FKfqwyynnbcsq0htxho3vchpd2u` FOREIGN KEY (`descriptor_id`) REFERENCES `descriptor` (`id`)
@@ -735,6 +681,7 @@ CREATE TABLE `non_commercial_banner` (
 
 LOCK TABLES `non_commercial_banner` WRITE;
 /*!40000 ALTER TABLE `non_commercial_banner` DISABLE KEYS */;
+INSERT INTO `non_commercial_banner` VALUES (10,0,'https://i.imgur.com/8YcXhS0.png','Acme slogan','https://i.imgur.com/8YcXhS0.png',7,'Acme jingle'),(11,0,'https://i.imgur.com/NGLSjk6.png','Acme slogan','https://i.imgur.com/NGLSjk6.png',7,'Acme jingle'),(12,0,'https://i.imgur.com/2eVF1HG.png','Acme slogan','https://i.imgur.com/2eVF1HG.png',7,'Acme jingle'),(13,0,'https://i.imgur.com/fihihcF.png','Acme slogan','https://i.imgur.com/fihihcF.png',7,'Acme jingle'),(14,0,'https://i.imgur.com/MtBRoNP.png','Acme slogan','https://i.imgur.com/MtBRoNP.png',7,'Acme jingle');
 /*!40000 ALTER TABLE `non_commercial_banner` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -798,7 +745,6 @@ LOCK TABLES `perejon_bulletin` WRITE;
 /*!40000 ALTER TABLE `perejon_bulletin` DISABLE KEYS */;
 /*!40000 ALTER TABLE `perejon_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
-
 
 --
 -- Table structure for table `request_auditor`
@@ -943,6 +889,7 @@ CREATE TABLE `sponsor` (
 
 LOCK TABLES `sponsor` WRITE;
 /*!40000 ALTER TABLE `sponsor` DISABLE KEYS */;
+INSERT INTO `sponsor` VALUES (7,0,6,'3559912432365018','FaKeOrganisation');
 /*!40000 ALTER TABLE `sponsor` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -969,33 +916,6 @@ CREATE TABLE `thread` (
 LOCK TABLES `thread` WRITE;
 /*!40000 ALTER TABLE `thread` DISABLE KEYS */;
 /*!40000 ALTER TABLE `thread` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `thread_authenticated`
---
-
-DROP TABLE IF EXISTS `thread_authenticated`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `thread_authenticated` (
-  `thread_id` int(11) NOT NULL,
-  `authenticateds_id` int(11) NOT NULL,
-  KEY `FK1e718rov5gxl1f3tgjtl6vhtg` (`authenticateds_id`),
-  KEY `FKjsja3s5mr66x5nxm9dd8kut3r` (`thread_id`),
-  CONSTRAINT `FK1e718rov5gxl1f3tgjtl6vhtg` FOREIGN KEY (`authenticateds_id`) REFERENCES `authenticated` (`id`),
-  CONSTRAINT `FKjsja3s5mr66x5nxm9dd8kut3r` FOREIGN KEY (`thread_id`) REFERENCES `thread` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `thread_authenticated`
---
-
-LOCK TABLES `thread_authenticated` WRITE;
-/*!40000 ALTER TABLE `thread_authenticated` DISABLE KEYS */;
-INSERT INTO `thread_authenticated` VALUES (110,55),(111,55),(111,61),(111,67),(112,49);
-/*!40000 ALTER TABLE `thread_authenticated` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1037,6 +957,9 @@ CREATE TABLE `user_account` (
   `enabled` bit(1) NOT NULL,
   `identity_email` varchar(255) DEFAULT NULL,
   `identity_name` varchar(255) DEFAULT NULL,
+  `identity_phone_area_code` varchar(255) DEFAULT NULL,
+  `identity_phone_country_code` int(11) DEFAULT NULL,
+  `identity_phone_number` varchar(255) DEFAULT NULL,
   `identity_surname` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
   `username` varchar(255) DEFAULT NULL,
@@ -1051,7 +974,7 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$kap1ypmgMjX2gqTIFKlgMO/q.RKsREMakABPT2uPuLbHlz7TsNGZm','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$mAjlEBE8qyLNnL9vtak8te9gHRE99DEyRsjV8OBLJpT62rU/d9yiq','administrator');
+INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John',NULL,NULL,NULL,'Doe','$2a$05$boKJzXI5hdtsWHoGExPvPeZm8HgrUT3SLc8rmT9jewMJMDmDHMjpm','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator',NULL,NULL,NULL,'Acme.com','$2a$05$QT01B6tw73yGvAXHTpqT6O8MVmJEeox/UEYN1pXG7hOSy670hxCUC','administrator'),(6,0,_binary '','sponsordefault@acme.com','Sponsor',NULL,NULL,NULL,'Default','$2a$05$9YJtjnglNNF3eRlsh58NPet55Z2wLZjQQwPOpZYzcJOpY5SZZTkIW','sponsorDefault');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1122,4 +1045,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-12-16 13:38:48
+-- Dump completed on 2020-01-14 16:41:11
