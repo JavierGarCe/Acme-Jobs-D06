@@ -36,20 +36,13 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
 
-# master.menu.consumer ##########################################################
-
-master.menu.consumer = Trabajador
-master.menu.consumer.all-jobs = Ver todos los trabajos
-master.menu.consumer.my-applications = Ver mis solicitudes
-
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
-master.menu.user-account.consumer = Datos de trabajador
-master.menu.user-account.become-consumer = Hazte trabajador
 
-﻿# master.sign-in ##############################################################
+
+# master.sign-in ##############################################################
 
 master.sign-in.label.username = Apodo:
 master.sign-in.label.password = Contraseña:
