@@ -10,7 +10,8 @@
 - they accept any liabilities with respect to them.
 --%>
 
-<%@page language="java" import="acme.framework.helpers.PrincipalHelper,acme.entities.roles.Provider"%>
+
+<%@page language="java" import="acme.framework.helpers.PrincipalHelper"%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
@@ -77,12 +78,6 @@
       		<acme:menu-suboption code="master.menu.administrator.createAnnouncements" action="/administrator/announcement/create"/>
 			<acme:menu-suboption code="master.menu.administrator.listAnnouncements" action="/administrator/announcement/list"/>
 		<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.administrator.listCommercialBanners" action="/administrator/commercial-banner/list"/>
-			<acme:menu-suboption code="master.menu.administrator.createCommercialBanners" action="/administrator/commercial-banner/create"/>
-		<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.administrator.listNonCommercialBanners" action="/administrator/non-commercial-banner/list"/>
-			<acme:menu-suboption code="master.menu.administrator.createNonCommercialBanner" action="/administrator/non-commercial-banner/create"/>
-	  <acme:menu-separator/>
 	  		<acme:menu-suboption code="master.menu.administrator.customization" action="/administrator/customization/list"/>	
     <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/dashboard/show"/>
@@ -98,9 +93,6 @@
 			<acme:menu-suboption code="master.menu.administrator.createCompanyRecords" action="/administrator/company-record/create"/>			
 		</acme:menu-option>
 
-		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">		
-			<acme:menu-suboption code="master.menu.provider.requests.create" action="/provider/requests/create" />
-		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.listAnnouncements" action="/anonymous/announcement/list-date" />
@@ -146,10 +138,7 @@
 
 		<acme:menu-option code="master.menu.user-account" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.user-account.general-data" action="/authenticated/user-account/update" />
-			<acme:menu-suboption code="master.menu.user-account.become-provider" action="/authenticated/provider/create"
-				access="!hasRole('Provider')" />
-			<acme:menu-suboption code="master.menu.user-account.provider" action="/authenticated/provider/update"
-				access="hasRole('Provider')" />
+
 			<acme:menu-suboption code="master.menu.user-account.become-employer" action="/authenticated/employer/create"
 				access="!hasRole('Employer')" />
 			<acme:menu-suboption code="master.menu.user-account.employer" action="/authenticated/employer/update"

@@ -91,12 +91,6 @@ master.menu.administrator.dashboard = List indicators
 
 master.menu.administrator.customization = Customization
 
-master.menu.administrator.listCommercialBanners = List commercial banners
-master.menu.administrator.createCommercialBanners = Create commercial banner
-
-master.menu.administrator.listNonCommercialBanners = List non commercial banners
-
-master.menu.administrator.createNonCommercialBanner = Create non commercial banners
 
 master.menu.administrator.listAllInvestorRecords = List all investor records
 
@@ -106,10 +100,6 @@ master.menu.administrator.request.auditor = List auditor requests
 
 master.menu.administrator.chart = Charts
 
-# master.menu.provider ########################################################
-
-master.menu.provider = Provider
-master.menu.provider.requests.create = Create Request
 
 # master.menu.employer ########################################################
 
@@ -142,8 +132,6 @@ master.menu.sponsor.listOthers = Jobs I have not audited
 
 master.menu.user-account = Account
 master.menu.user-account.general-data = General data
-master.menu.user-account.provider = Provider data
-master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.listCompanyRecords = List company records
 master.menu.user-account.become-employer = Become a employer
 master.menu.user-account.employer = Employer data
