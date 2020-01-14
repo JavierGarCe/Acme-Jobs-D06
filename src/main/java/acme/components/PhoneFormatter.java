@@ -26,8 +26,8 @@ public class PhoneFormatter implements Formatter<Phone> {
 		//Se ha puesto %s en lugar de %d
 		areaCodeText = object.getAreaCode() == null ? " " : String.format(" (%s) ", object.getAreaCode());
 		numberText = String.format("%s", object.getNumber());
-		//Se ha puesto %s%s%s en lugar de +%d%s%ld
-		result = String.format("%s%s%s", countryCodeText, areaCodeText, numberText);
+		//Se ha puesto +%s%s%s en lugar de +%d%s%ld
+		result = String.format("+%s%s%s", countryCodeText, areaCodeText, numberText);
 
 		return result;
 	}
