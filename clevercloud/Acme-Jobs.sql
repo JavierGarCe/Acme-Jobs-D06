@@ -271,7 +271,7 @@ CREATE TABLE `commercial_banner` (
   `picture` varchar(255) DEFAULT NULL,
   `slogan` varchar(255) DEFAULT NULL,
   `target_url` varchar(255) DEFAULT NULL,
-  `sponsor_id` int(11) DEFAULT NULL,
+  `sponsor_id` int(11) NOT NULL,
   `credit_card` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_q9id3wc65gg49afc5tlr1c00n` (`sponsor_id`),
@@ -667,7 +667,7 @@ CREATE TABLE `non_commercial_banner` (
   `picture` varchar(255) DEFAULT NULL,
   `slogan` varchar(255) DEFAULT NULL,
   `target_url` varchar(255) DEFAULT NULL,
-  `sponsor_id` int(11) DEFAULT NULL,
+  `sponsor_id` int(11) NOT NULL,
   `jingle` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_2l8gpcwh19e7jj513or4r9dvb` (`sponsor_id`),
@@ -974,7 +974,7 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John',NULL,NULL,NULL,'Doe','$2a$05$boKJzXI5hdtsWHoGExPvPeZm8HgrUT3SLc8rmT9jewMJMDmDHMjpm','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator',NULL,NULL,NULL,'Acme.com','$2a$05$QT01B6tw73yGvAXHTpqT6O8MVmJEeox/UEYN1pXG7hOSy670hxCUC','administrator'),(6,0,_binary '','sponsordefault@acme.com','Sponsor',NULL,NULL,NULL,'Default','$2a$05$9YJtjnglNNF3eRlsh58NPet55Z2wLZjQQwPOpZYzcJOpY5SZZTkIW','sponsorDefault');
+INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John',NULL,NULL,NULL,'Doe','$2a$05$D1wEHMiCeD6hBEICaCbrHuKcPt78v30AzfAxrahptjRT7VUjGnAoC','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator',NULL,NULL,NULL,'Acme.com','$2a$05$zFDQxJw4tuvIKnUJityEX.7DHZXwKWaKw4CUMvsPMyHlNAcSzbfYS','administrator'),(6,0,_binary '','sponsordefault@acme.com','Sponsor',NULL,NULL,NULL,'Default','$2a$05$Dt.o3SoqkMTiGxq7/w/huu9FhkdCQinn92x1UrFz4JzMD0Nq03veu','sponsorDefault');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1045,4 +1045,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-01-14 16:41:11
+-- Dump completed on 2020-01-15 20:51:19
