@@ -87,7 +87,7 @@
         `picture` varchar(255),
         `slogan` varchar(255),
         `target_url` varchar(255),
-        `sponsor_id` integer,
+        `sponsor_id` integer not null,
         `credit_card` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
@@ -220,7 +220,7 @@
         `picture` varchar(255),
         `slogan` varchar(255),
         `target_url` varchar(255),
-        `sponsor_id` integer,
+        `sponsor_id` integer not null,
         `jingle` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
